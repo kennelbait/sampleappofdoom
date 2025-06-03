@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.1.0 (2025-06-03)
 
+### Other
+
+ - <csr-id-5c73d181fd06673f316fb8f6f5707fa9099b1643/> use mise for env management
+
 ### Documentation
 
  - <csr-id-748bafdc7b8e1256a8febe1ca99bfefb653b83ce/> idk
@@ -35,6 +39,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
-    - Idk (748bafd)
+    - Use mise for env management (5c73d18)
 </details>
 
