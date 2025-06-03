@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2024"
 description = "if this uploads to crates.io i will cry"
 license = "Proprietary"
-publish = false
+# publish = false
 
 [dependencies]
