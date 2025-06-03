@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.1.0 (2025-06-03)
 
+<csr-id-5c73d181fd06673f316fb8f6f5707fa9099b1643/>
+
 ### Other
 
  - <csr-id-5c73d181fd06673f316fb8f6f5707fa9099b1643/> use mise for env management
+
+### Other
+
+ - <csr-id-7c8c09f2aa9202352a77c55104ba32b0f73c15ad/> unfuck env file i guess? idk i'm sleepy
 
 ### Documentation
 
@@ -39,6 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
-    - Use mise for env management (5c73d18)
+    - Unfuck env file i guess? idk i'm sleepy (7c8c09f)
 </details>
 
