@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.1.0 (2025-06-03)
 
+### Documentation
+
+ - <csr-id-748bafdc7b8e1256a8febe1ca99bfefb653b83ce/> idk
+
 ### Bug Fixes
 
  - <csr-id-25d55fd00e4171bdfbd00c2a1f120874127fd8c8/> hmm...
@@ -21,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <csr-read-only-do-not-edit/>
 
  - 1 commit contributed to the release.
- - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' were seen in commit messages
 
 ### Commit Details
@@ -31,6 +35,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
-    - Add .env to gitignore (8539e32)
+    - Idk (748bafd)
 </details>
 
