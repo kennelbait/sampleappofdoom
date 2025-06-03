@@ -20,8 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 7 commits contributed to the release.
- - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 1 commit contributed to the release.
+ - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' were seen in commit messages
 
 ### Commit Details
@@ -31,12 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
-    - Greet ALL the puppies... (586f292)
-    - Release sampleappofdoom v0.1.0 (ac92a85)
-    - Hmm... (25d55fd)
-    - Fuck that, actually. (15927d1)
-    - Say puppy instead of world (926a02f)
-    - Release-plz (c4a42b7)
-    - Initial dick (8d5eec7)
+    - Add .env to gitignore (8539e32)
 </details>
 
