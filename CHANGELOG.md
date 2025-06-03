@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## v0.1.0 (2025-06-03)
 
 <csr-id-5c73d181fd06673f316fb8f6f5707fa9099b1643/>
+<csr-id-7c8c09f2aa9202352a77c55104ba32b0f73c15ad/>
 
 ### Other
 
@@ -29,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
  - <csr-id-926a02f5efbe8e29fd39e85abf2254d3570edab5/> say puppy instead of world
  - <csr-id-586f292725305ff958c45efceef4d4624dcc7132/> greet ALL the puppies...
+ - <csr-id-912c5a12341e70f4293d603d300ea5060681da5b/> be more pensive when greeting fellow canids
 
 ### Commit Statistics
 
@@ -45,6 +47,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
-    - Unfuck env file i guess? idk i'm sleepy (7c8c09f)
+    - Be more pensive when greeting fellow canids (912c5a1)
 </details>
 
