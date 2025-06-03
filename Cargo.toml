@@ -1,6 +1,6 @@
 [package]
 name = "sampleappofdoom"
-version = "0.1.0"
+version = "0.1.1-alpha.1"
 edition = "2024"
 description = "if this uploads to crates.io i will cry"
 license = "Proprietary"
