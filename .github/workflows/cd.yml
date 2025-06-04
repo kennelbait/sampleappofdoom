@@ -105,7 +105,7 @@ jobs:
 
           ########## create sha256 ##########
           if [[ ${{ runner.os }} == 'Windows' ]]; then
-            certutil -hashfile assets/$RELEASE_NAME.tar.gz sha256 | grep -E [A-Fa-f0-9]{64} > assets/$RELEASE_NAME.sha256
+            certutil -hashfile assets/$RELEASE_NAME.zip sha256 | grep -E [A-Fa-f0-9]{64} > assets/$RELEASE_NAME.sha256
           else
             shasum -a 256 assets/$RELEASE_NAME.tar.gz > assets/$RELEASE_NAME.sha256
           fi
