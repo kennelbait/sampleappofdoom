@@ -2,5 +2,7 @@
 name = "sampleappofdoom"
 version = "0.1.0"
 edition = "2024"
+license = "Proprietary"
+description = "if this uploads to crates.io i'm gonna cry"
 
 [dependencies]
