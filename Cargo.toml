@@ -1,0 +1,11 @@
+[package]
+name = "sampleappofdoom"
+version = "0.1.0"
+edition = "2024"
+description = "if this uploads to crates.io i'm gonna cry"
+repository = "https://github.com/kennelbait/sampleappofdoom"
+license-file = "LICENSE.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
