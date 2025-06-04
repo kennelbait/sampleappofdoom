@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4](https://github.com/kennelbait/sampleappofdoom/compare/v0.2.3...v0.2.4) - 2025-06-04
+
+### Added
+
+- make the greeting for dogs i guess
+
+### Fixed
+
+- add missing translation into dog
+
+### Other
+
+- readme.md blargrgrgh
+
 ## [0.2.3](https://github.com/kennelbait/sampleappofdoom/compare/v0.2.2...v0.2.3) - 2025-06-04
 
 ### Fixed
