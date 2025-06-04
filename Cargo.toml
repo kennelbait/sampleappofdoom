@@ -1,6 +1,6 @@
 [package]
 name = "sampleappofdoom"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 description = "if this uploads to crates.io i'm gonna cry"
 repository = "https://github.com/kennelbait/sampleappofdoom"
