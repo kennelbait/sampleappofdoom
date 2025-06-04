@@ -15,7 +15,7 @@ env:
   RUST_BACKTRACE: 1
   RUSTFLAGS: -D warnings
   RUSTUP_MAX_RETRIES: 10
-  
+
 jobs:
 
   publish:
@@ -92,8 +92,12 @@ jobs:
 
           ########## create tar.gz ##########
           mkdir assets
+          mkdir staging
           RELEASE_NAME=sampleappofdoom-${GITHUB_REF/refs\/tags\//}-${{ matrix.job.os-name }}-${{ matrix.job.architecture }}
-          tar czvf assets/$RELEASE_NAME.tar.gz $BINARY
+          mv $BINARY staging
+          cd staging
+          tar czvf assets/$RELEASE_NAME.tar.gz *
+          cd ..
 
           ########## create sha256 ##########
           if [[ ${{ runner.os }} == 'Windows' ]]; then
