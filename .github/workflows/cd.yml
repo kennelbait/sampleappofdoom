@@ -90,13 +90,17 @@ jobs:
           fi
           "$GCC_PREFIX"strip $BINARY
 
-          ########## create tar.gz ##########
+          ########## create tar.gz or zip ##########
           mkdir assets
           mkdir staging
           RELEASE_NAME=sampleappofdoom-${GITHUB_REF/refs\/tags\//}-${{ matrix.job.os-name }}-${{ matrix.job.architecture }}
           mv $BINARY staging
           cd staging
-          tar czvf ../assets/$RELEASE_NAME.tar.gz *
+          if [[ "$RUNNER_OS" == "Windows" ]]; then
+            powershell -Command "Compress-Archive -Path * -DestinationPath ../assets/$RELEASE_NAME.zip"
+          else 
+            tar czvf ../assets/$RELEASE_NAME.tar.gz *
+          fi
           cd ..
 
           ########## create sha256 ##########
