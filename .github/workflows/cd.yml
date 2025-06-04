@@ -96,7 +96,7 @@ jobs:
           RELEASE_NAME=sampleappofdoom-${GITHUB_REF/refs\/tags\//}-${{ matrix.job.os-name }}-${{ matrix.job.architecture }}
           mv $BINARY staging
           cd staging
-          tar czvf assets/$RELEASE_NAME.tar.gz *
+          tar czvf ../assets/$RELEASE_NAME.tar.gz *
           cd ..
 
           ########## create sha256 ##########
